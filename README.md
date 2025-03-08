@@ -20,8 +20,50 @@ The YouTube Transcript Downloader is a simple yet powerful tool that extracts tr
 ✔ **Handles errors gracefully** if the video has no transcript.  
 
 ---
+## **📦 Startup sequence**
 
-## **📦 Requirements**
+**1.** Use the git CLI command to clone this GitHub repository:
+
+```bash
+git clone https://github.com/LinuxSystemsEngineer/youtube_transcript_downloader.git
+```
+---
+
+**2.** Change directories to your newly cloned GitHub repository:
+
+```bash
+cd youtube_transcript_downloader
+```
+---
+
+**3.** Create a segmented python virtual environment:
+
+```bash
+python3 -m venv .segment
+```
+---
+
+**4.** Activate your segmented python virtual environment
+
+---
+
+Linux/macOS:
+
+```bash
+source .segment/bin/activate
+```
+
+---
+
+Windows:
+
+```
+.segment\Scripts\activate
+```
+
+----------
+
+## **📦 Install the requirements**
 This program requires **Python 3.12 or newer** and one external library:
 
 - `youtube-transcript-api` (for retrieving YouTube video transcripts)
@@ -29,12 +71,13 @@ This program requires **Python 3.12 or newer** and one external library:
 ### **Installing Required Packages**
 Before running the program, install the required package:
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ``` 
 
 ----------
 
-## **📜 How It Works**
+
+## **📜 How it works**
 
 1️⃣ **Run the script**
 
